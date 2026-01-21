@@ -15,6 +15,7 @@
 | Mikrotik L009UiGS | IPQ-5018 | arm64  | 2      | 254.10         | 7.10              | 499.43            | 13.33                 |
 | Mikrotik RBD53iG-5HacD2HnD (hAP ac3) | IPQ-4019 | arm32  | 4      | 103.20         | 107.72              | 395.64            | 193.26                 |
 | Mikrotik L41G (hAP ax lite) | IPQ-5010 | arm32 | 2                | 137.87         | 33.56               | 272.74            | 33.88                  |
+| Mikrotik L009UiGS | IPQ-5018 | arm32  | 2      | 136.34         | 28.39              | 256.14            | 29.96                 |
 | Mikrotik E60iUGS (hEX S 2025) | EN7562CT | armv5 | 2              | 113.14         | 21.39               | 225.71            | 37.92                  |
 | Mikrotik CRS326-24G-2S+ | 98DX3236 | arm32 | 2                | 84.54         | 65.92               | 84.66            | 83.15                  |
 
