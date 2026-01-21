@@ -1,7 +1,7 @@
 # CPU Benchmark for Mikrotik Devices with container support
 
 ## RouterOS Device Results
-| Device                  | CPU             | RouterOS Version |  CPU Core | int64 (1 Thread) | matrixprod (1 Thread) | int64 (ALL Threads) | matrixprod (ALL Threads) |
+| Device                  | CPU             | RouterOS Version |  CPU Core | int64 (1 Thread) | matrixprod (1 Thread) | int64 (ALL Threads) ↓ | matrixprod (ALL Threads) |
 |-------------------------|-----------------|-----------------|--------------|----------------|---------------------|-------------------|------------------------|
 | aliexpress x86 router | intel N100 | x86 | 4                      | 1587.47        | 2442.24             | 4134.63           | 4317.04                |
 | Mikrotik RB5009UG+S | 88F7040 | arm64 | 4                         | 640.61         | 22.09               | 2562.37           | 86.60                  |
@@ -11,6 +11,7 @@
 | Mikrotik C53UiG+5HPaxD2HPaxD (hAP ax3)| IPQ-6010 | arm64 | 4      | 455.11         | 18.84               | 1815.39           | 57.21                  |
 | Mikrotik RB4011iGS+5HacQ2HnD | AL21400 | arm32 | 4              | 234.60         | 206.92               | 933.35            | 764.67                  |
 | Mikrotik C52iG-5HaxD2HaxD-TC (hAP ax2)| IPQ-6010 | arm64 | 4      | 218.51         | 9.24                | 871.49            | 31.66                  |
+| Mikrotik L009UiGS | IPQ-5018 | arm64  | 2      | 254.10         | 7.10              | 499.43            | 13.33                 |
 | Mikrotik RBD53iG-5HacD2HnD (hAP ac3) | IPQ-4019 | arm32  | 4      | 103.20         | 107.72              | 395.64            | 193.26                 |
 | Mikrotik L41G (hAP ax lite) | IPQ-5010 | arm32 | 2                | 137.87         | 33.56               | 272.74            | 33.88                  |
 | Mikrotik E60iUGS (hEX S 2025) | EN7562CT | armv5 | 2              | 113.14         | 21.39               | 225.71            | 37.92                  |
