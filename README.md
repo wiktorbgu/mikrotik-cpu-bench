@@ -3,7 +3,7 @@
 ## RouterOS Device Results
 | Device                  | CPU             | RouterOS Version |  CPU Core | int64 (1 Thread) | matrixprod (1 Thread) | int64 (ALL Threads) ↓ | matrixprod (ALL Threads) |
 |-------------------------|-----------------|-----------------|--------------|----------------|---------------------|-------------------|------------------------|
-| x86 router Beelink minis S13 | intel N150 | x86 | 4                      | 1690.67        | 2735.50             | 5459.61           | 4571.61                |
+| x86 router Beelink mini S13 | intel N150 | x86 | 4                      | 1690.67        | 2735.50             | 5459.61           | 4571.61                |
 | aliexpress x86 router | intel N100 | x86 | 4                      | 1587.47        | 2442.24             | 4134.63           | 4317.04                |
 | Mikrotik RB5009UG+S | 88F7040 | arm64 | 4                         | 640.61         | 22.09               | 2562.37           | 86.60                  |
 | Mikrotik H53UiG-5HaxQ2HaxQ (Chateau PRO ax) | IPQ-8072A | arm64 |4| 560.27         | 22.38               | 2214.59           | 64.17                  |
